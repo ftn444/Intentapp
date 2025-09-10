@@ -12,21 +12,29 @@
     <EditText
         android:id="@+id/edt_name"
         android:layout_marginBottom="16dp"
-        android:hint="Login username"
+        android:hint="Masukkan Nama"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-
+    <Button
+        android:id="@+id/btn_to_second_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="To second activity"/>
     <Button
         android:id="@+id/btn_send_message"
         android:text="Send Message"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-
     <Button
-        android:id="@+id/btn_to_second_activity"
+        android:id="@+id/btn_dial"
+        android:text="Dial"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="To second activity" />
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_open_link"
+        android:text="Open link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 
 </LinearLayout>

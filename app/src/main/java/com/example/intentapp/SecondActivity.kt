@@ -21,7 +21,7 @@ class SecondActivity : AppCompatActivity() {
             val data = result.data
             val name = data?.getStringExtra(MainActivity.EXTRA_NAME)
             val address = data?.getStringExtra(EXTRA_ADDRESS)
-        binding.txtName.text="Selamat datang $name"; "$email telah terverifikasi"; "$telp adalah nomor telepon anda"
+        binding.txtName.text="Selamat datang $name";
         }
     }
     override fun onCreate(savedInstanceState: Bundle?) {
